@@ -10,7 +10,7 @@ Each dataset has its own directory with a download script, loader, config, and e
 
 ```bash
 # 1. Set data path in repository root .env file
-ML4T_DATA_PATH=/path/to/your/data
+ML4T_DATA_PATH=./data
 
 # 2. Download free datasets (no API keys needed)
 uv run python data/download_all.py --free-only
